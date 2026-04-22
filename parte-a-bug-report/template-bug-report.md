@@ -1,7 +1,5 @@
 # 🐛 Bug Reports — Parte A
 
-> Preencha uma seção completa para cada defeito encontrado. O mínimo
-> exigido é **3 bug reports**. Apague este bloco antes de entregar.
 
 **Dupla:** [Nome 1 + RA] + [Nome 2 + RA]
 **Data da exploração:** [DD/MM/AAAA]
@@ -12,102 +10,95 @@
 
 ## BUG-001
 
-**Título:** [CONTEXTO] Descrição específica e acionável do problema
+**Título:** Tarefas sendo inseridas com nome em branco
 
-**Severidade:** Crítica | Alta | Média | Baixa
-**Justificativa da severidade:** (1-2 frases explicando o impacto técnico)
+**Severidade:** Baixa
+**Justificativa da severidade:** O usuário não consegue identificar qual tarefa está na lista, porém, não impacta no funcionamento da aplicação
 
-**Prioridade:** P1 | P2 | P3 | P4
-**Justificativa da prioridade:** (1-2 frases explicando a urgência de negócio)
+**Prioridade:** P4
+**Justificativa da prioridade:** Tem impacto mínimo no funcionamento da aplicação
 
 **Ambiente:**
-- Navegador: [ex.: Chrome 121.0]
-- Sistema Operacional: [ex.: Windows 11]
+- Navegador: Edge
+- Sistema Operacional: Windowns 10
 - Versão da aplicação: TarefaQS v1.0.0
 
 **Passos para reprodução:**
-1. Passo numerado e objetivo
-2. Outro passo claro o suficiente para qualquer pessoa reproduzir
-3. ...
+1. Clicar no botão adicionar tarefa
 
 **Resultado esperado:**
-[O que deveria acontecer segundo o comportamento desejado.]
+Validação de campo para o título da tarefa indicando erro
 
 **Resultado obtido:**
-[O que efetivamente acontece.]
+Tarefa inserida normalmente
 
 **Evidência:**
-![Descrição da evidência](evidencias/bug-001-captura.png)
-
-> Se preferir anexar um GIF ou arquivo de log, crie uma pasta
-> `evidencias/` ao lado deste arquivo e referencie o arquivo aqui.
-
-**Sugestão de causa raiz (opcional):**
-[Palpite informado — útil para quem vai corrigir.]
+<img width="934" height="864" alt="image" src="https://github.com/user-attachments/assets/742b7090-7e08-4051-9ba2-1d8e4aac95c2" />
 
 ---
 
 ## BUG-002
 
-**Título:**
+**Título:** Não é possível filtrar as tarefas por categoria
 
-**Severidade:**
-**Justificativa da severidade:**
-
-**Prioridade:**
-**Justificativa da prioridade:**
+**Severidade:** baixa
+**Justificativa da severidade:** Não afeta o funcionamento principal da aplicação, pois o usuário consegue inserir as tarefas normalmente
+**Prioridade:** p4
+**Justificativa da prioridade:** Não afeta o funcionamento principal da aplicação
 
 **Ambiente:**
-- Navegador:
-- Sistema Operacional:
+- Navegador: Edge
+- Sistema Operacional: Windowns 10
 - Versão da aplicação: TarefaQS v1.0.0
 
 **Passos para reprodução:**
-1.
-2.
-3.
+1. Clicar no botão adicionar tarefa
+2. Clicar na caixa filtrar
 
-**Resultado esperado:**
+**Resultado esperado:** 
+Opção para filtro de categoria disponível
 
 **Resultado obtido:**
+Apenas filtro de status atual da tarefa apresentado
 
 **Evidência:**
-
-**Sugestão de causa raiz (opcional):**
+<img width="956" height="973" alt="image" src="https://github.com/user-attachments/assets/42d2f995-15e8-4bd5-9f8a-0829bcacf8dc" />
 
 ---
 
 ## BUG-003
 
-**Título:**
+**Título:** 
+Atualizar a página não persiste os dados
 
-**Severidade:**
+**Severidade:** 
+Crítico
 **Justificativa da severidade:**
+Afeta completamente a funcionabilidade da aplicação, já que os dados não estão sendo salvos
 
 **Prioridade:**
+p1
 **Justificativa da prioridade:**
+Afeta completamente a funcionabilidade da aplicação.
 
 **Ambiente:**
-- Navegador:
-- Sistema Operacional:
+- Navegador: Edge
+- Sistema Operacional: Windowns 10
 - Versão da aplicação: TarefaQS v1.0.0
 
 **Passos para reprodução:**
-1.
-2.
+1. Clicar no botão adicionar tarefa
+2. Atualizar o navegador
 3.
 
 **Resultado esperado:**
+Retornar com as atividades anteriores salvas e mostrando na tela
 
 **Resultado obtido:**
+Toda a lista de tarefa estava vazia
 
 **Evidência:**
-
-**Sugestão de causa raiz (opcional):**
-
----
-
-<!-- Para reports adicionais, copie o bloco acima trocando o número. -->
+<img width="959" height="973" alt="image" src="https://github.com/user-attachments/assets/244479e6-5e67-4639-9496-202311cda319" />
 
 ---
 
