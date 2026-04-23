@@ -1,4 +1,4 @@
-````markdown
+
 # 🔎 Formulário — Parte B
 
 **Dupla:** Victor Flor 225653 e Luan Correia 228391
